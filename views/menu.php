@@ -119,11 +119,11 @@
                                 <li><a href="#">Adicionar item</a></li> <!-- Aqui um select cadastra uma nova coleção que o usuário possui -->
                             </ul>
                         </li>
-                        <li><a href="#">Add New</a></li>
+                        <li><a href="/collectionOrganizer/main.php?colecao=criarColecao.php">Criar Coleção</a></li>
                         <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Managers <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">View Managers</a></li>
-                                <li><a href="#">Add New</a></li>
+                                <li><a href="#">...Algo</a></li>
                             </ul>
                         </li>
                         <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff <span class="caret"></span></a>
@@ -152,6 +152,7 @@
                         <?php  } else { ?>
                         <li class=""><a href="../collectionOrganizer/logoff.php">Logout</a></li>
                         <?php  }  ?>
+                        <li class=""><a href="/collectionOrganizer/main.php?colecao=cadastrarUsuarioNovo.php">Cadastre-se</a></li>
                     </ul>
                 </div>
             </div>

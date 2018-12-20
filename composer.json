@@ -1,0 +1,8 @@
+{
+    "require": {
+    },
+    "require-dev": {
+        "laravel/laravel": "dev-master",
+        "barryvdh/laravel-debugbar": "dev-master"
+    }
+}
